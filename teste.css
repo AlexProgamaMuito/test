@@ -1,0 +1,67 @@
+body{
+    background-color: #10101c;
+    margin: auto;
+    
+    font-family: Arial, sans-serif;
+}
+
+p{
+    color: red;
+   text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    width: auto;
+    height: auto;
+    
+}
+
+h1{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border-bottom: white solid;
+    margin: auto;
+}
+
+img{
+    width: 250px;
+    border: red solid 2px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px red;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+
+.separado{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-bottom: red 2px solid;
+    margin: auto;
+
+}
+
+h2{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+.texto-rapido {
+  /* Nome da animação, duração de 0.4 segundos e efeito suave */
+  animation: surgir 0.4s ease-out forwards;
+}
+
+@keyframes surgir {
+  0% {
+    opacity: 0;
+    transform: scale(0.8); 
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); 
+  }
+}
